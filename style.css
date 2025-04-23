@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+ body {
+    width: 100%;
+    min-width: 433px;
+    background-color: #000000;
+    color: white;
+}
+
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    background-color:white;
+    padding: 20px 80px;
+    background: linear-gradient(#cf3737, #000301);
+    height: 25px;
+    position:sticky;
+    top: 0px;
+    z-index: 999;
+
+}
+
+button{
+    font-size: 15px;
+    font-weight: bold;
+    color:#ff0000;
+    background: #cec575;
+    border-radius: 20px;
+    border-color:#dda949;
+    padding: 10px;
+    width: 140px;
+}
+
+#head button:hover {
+    color: rgb(110, 226, 43);
+    background-color: #8e3ae2;
+    border-color:rgb(110, 226, 43) ;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero .img{
+    background-size: cover;
+    position:static;
+}
+
+#hero .text{
+    position: absolute;
+    top: 400px;
+    padding-left: 50px;
+    color:#04bade ;  
+}
+
+h1{
+    color: bisque;
+    text-align: center;
+}
+
+p{
+    color: #b8d6af;
+}
+
+.detail{
+    padding: 20px;
+    text-align: center;
+}
+
+.icon{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 30px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+.bott{
+    padding: 30px 10px;
+    background: linear-gradient(black ,#cf3737);
+}
+
+/* project page  */
+#hero2{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.proj {
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#but1{
+    width: 325px;
+    background-color: #000301;
+
+}
+
+.img2{
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    #des{
+        display: flex;
+        align-items: center;
+
+    }
+
+    #but1{
+        margin: 10px;
+    }
+
+
+   
+  }
+
+
+
+/*header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 80px;
+    background: linear-gradient(#8e3ae2, #000301) ;
+    position: sticky;
+    width: 100%;
+    
+}
+
+#header a{
+    color: #04bade;
+    text-decoration: none;
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    list-style: none;
+    padding:0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: ;
+    transition: 0.3 ease;
+    
+}
+
+#navbar li a:hover {
+    color: blueviolet;#55e2e9
+}
