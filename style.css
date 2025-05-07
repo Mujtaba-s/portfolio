@@ -28,18 +28,18 @@
 button{
     font-size: 15px;
     font-weight: bold;
-    color:#ff0000;
+    color:#db6b6b;
     background: #cec575;
     border-radius: 20px;
-    border-color:#dda949;
+    border-color:#cec575;
     padding: 10px;
     width: 140px;
 }
 
 #head button:hover {
     color: rgb(110, 226, 43);
-    background-color: #8e3ae2;
-    border-color:rgb(110, 226, 43) ;
+    background-color: #b9fabc;
+    border-color:rgb(192, 247, 160) ;
 }
 
 #hero {
@@ -101,12 +101,15 @@ p{
 
 #but1{
     width: 325px;
+    height: 350px;
     background-color: #000301;
+    border-color:black;
 
 }
 
 .img2{
     width: 90%;
+    height: 200px;
     padding: 10px;
     border-radius: 15px;
 }
