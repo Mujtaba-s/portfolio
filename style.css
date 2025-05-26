@@ -114,6 +114,14 @@ p{
     border-radius: 15px;
 }
 
+.skill{
+    text-align: center;
+}
+
+.skill  ul {
+    margin-top: 10px;
+}
+
 
 
 
